@@ -1,2 +1,4 @@
-# primer_programa
-Repositorio para la primera actividad del curso de Lógica de Programación.
+# Primer Programa - Lógica de Programación
+## Integrantes del grupo: Matías Múnera y Esteban Gonzalez
+
+
