@@ -20,7 +20,7 @@ public class HolaMundo {
         // Se hace un switch para seleccionar las diferentes versiones
         switch(opcion) {
             case 1:
-                System.out.println("Bla bla bla acá va la información del equipo");
+                System.out.println("Somos Matias Munera y Esteban Gonzalez, y hablaremos de como funciona y como los programas usan la memoria RAM.");
                 break;
             case 2:
                 System.out.println("Hasta pronto, gracias por usar nuestro programa.");

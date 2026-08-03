@@ -13,7 +13,7 @@ public class HolaMundoRepitiendo {
         while (opcion != 2) {
             switch(opcion) {
                 case 1:
-                    System.out.println("Bla bla bla acá va la información del equipo");
+                    System.out.println("Somos Matias Munera y Esteban Gonzalez, y hablaremos de como funciona y como los programas usan la memoria RAM.");
                     break;
                 default:
                     System.out.println("Por favor, ingrese una opción válida.");
