@@ -21,6 +21,6 @@ Memoria RAM y cómo la usan los programas.
 
 Entra al repositorio de GitHub, dirigete al botón verde que dice "<> Code" y selecciona "Download ZIP", esto descargará los archivos de este repositorio. Con esto, podrás abrir la carpeta con Visual Studio Code y podrás ejecutar los códigos de Java.
 
-[!CAUTION]
-Se requiere tanto las extensiones de Java en VSCode como Java y el JDK de Java instalado en tu equipo para ejecutar los códigos.
+> [!CAUTION>]
+> Se requiere tanto las extensiones de Java en VSCode como Java y el JDK de Java instalado en tu equipo para ejecutar los códigos.
 
