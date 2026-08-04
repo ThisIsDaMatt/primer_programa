@@ -13,9 +13,12 @@ Memoria RAM y cómo la usan los programas.
 
 ## Archivos del proyecto
 
+- **README.md**: lo que estás leyendo en este momento.
 - **HolaMundo.java**: versión basica del código.
 - **HolaMundoRepitiendo.java**: versión con switch para mostrar un menú que se repite.
 - **prueba.java**: práctica de cómo usar scanner.
+- **documentacion.md**: información sobre como se trabajó con el flujo git-github.
+- **Memoria RAM.pptx**: presentación sobre el tema a exponer
 
 > [!NOTE]
 > El archivo prueba.java no era requerido en el trabajo, pero se dejó en el proyecto para evidenciar que se practicó el uso de scanner en Java.
@@ -26,6 +29,8 @@ Entra al repositorio de GitHub, dirigete al botón verde que dice **"<> Code"** 
 
 Con esto, podrás abrir la carpeta con Visual Studio Code y podrás ejecutar los códigos de Java.
 
+Puedes ejecutar los archivos directamente desde tu consola con los comandos "**javac HolaMundo.java**" para compilar el archivo, y despues "**java HolaMundo.java**" para correr el código, todo desde el cmd.
+
 > [!CAUTION]
-> Se requiere tanto las extensiones de Java en VSCode como Java y el JDK de Java instalado en tu equipo para ejecutar los códigos.
+> Se requiere tanto las extensiones de Java en VSCode (si se va a ejecutar en VSCode) como Java y el JDK de Java instalado en tu equipo para ejecutar los códigos.
 
