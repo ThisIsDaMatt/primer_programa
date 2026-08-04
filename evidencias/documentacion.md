@@ -24,6 +24,16 @@ La primera vez al hacer push, GitHub pide una autenticación para asegurarse que
 
 Para clonar el repositorio y trabajar conjuntamente, se usan comandos que se muestran mas adelante.
 
+Los archivos .java se crearon directamente en Visual Studio Code, con el botón nuevo archivo, pero el flujo con git habría sido de la siguiente manera:
+
+```
+touch prueba.java
+touch HolaMundo.java
+touch HolaMundoRepitiendo.java
+```
+
+Y directamente los archivos Java se trabajan en Visual Studio Code, junto al Markdown, puesto que trabajar en ellos con los editores de texto de git sería mucho mas tedioso.
+
 ## Colaboración conjunta
 Al iniciar el trabajo, añadí a mi compañero Esteban como colaborador del repositorio, lo cual le permite directamente clonar el repositorio, hacer commits, pushes y más, para no depender de pull requests.
 
@@ -43,5 +53,59 @@ git status
 ```
 Y al verficar, se puede seguir con los mismos comandos de antes para subir archivos a GitHub.
 
+Para crear la carpeta de evidencias, copiar las imagenes del cmdchallenge, crear este Markdown y poner la presentación, se usaron los siguientes comandos:
+
+```
+mkdir evidencias
+cd evidencias/
+touch documentacion.md
+cp ~/OneDrive/Escritorio/MemoriaRAM.pptx primer_programa/ 
+```
+Como eran multiples imagenes, se copiaron y pegaron manualmente con el explorador de Windows para mayor comodidad.
+
+Despues de todos estos cambios, se sigue el flujo: se añaden los archivos al stage, se hace el commit y se suben.
+
+La documentación se trabajó en Visual Studio Code, haciendo todos los commits via la consola de git.
+## Problemas encontrados en el trabajo
+
 > [!IMPORTANT]
 > Se debe aclarar de varios problemas que surgieron durante este trabajo, concretamente con el flujo de git en consola, los cuales se explicarán a continuación.
+
+Se pudo clonar y hacer pull y push de manera correcta, aunque a la hora de hacer git status o git add ., los siguientes "errores" (no eran errores, pero en el contexto de la situación, si significaban una anomalía):
+
+```
+git commit -m "mensaje"
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
+git push
+Everything up-to-date
+```
+
+Esto, a pesar de que habian cambios en la carpeta, habiendo añadido las imagenes.
+
+Por seguridad, se revirtieron los cambios usando los comandos rm, con los parametros -rf, que significa que se usa de forma recursiva para poder borrar todo el contenido de la carpeta y además para saltar cualquier confirmación que git suelte.
+
+```
+rm -rf Evidencias/
+```
+
+Tambien, al hacer push, podía salir este error:
+
+```
+git push
+To https://github.com/ThisIsDaMatt/primer_programa
+[rejected]
+main > main (fetch first)
+error: failed to push some refs to 'https://github.com/ThisIsDaMatt/primer_programa"
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push--help' for details.
+000008083@N00024554 MINGW64 ~/primer_programa (main)
+```
+
+Lo cual se pudo solucionar haciendo un git pull, puesto que este error indicaba que habian archivos que estaban en GitHub que faltaban localmente, permitiendo un push correcto.
+
+
