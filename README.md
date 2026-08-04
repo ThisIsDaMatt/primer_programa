@@ -23,6 +23,15 @@ Memoria RAM y cómo la usan los programas.
 > [!NOTE]
 > El archivo prueba.java no era requerido en el trabajo, pero se dejó en el proyecto para evidenciar que se practicó el uso de scanner en Java.
 
+## Carpeta evidencias
+
+La carpeta "**evidencias**" incluye:
+
+- **Capturas de pantalla** con **cmdchallenge.com** completado hasta el nivel básico, como se indicó.
+- **Screenshots de los tres programas** (incluyendo la práctica autónoma de scanner) funcionando correctamente.
+- **Presentación** en .pptx sobre la Memoria RAM
+- **Documentación** del proceso de colaboración incluyendo screenshots del uso de git en consola.
+
 ## Cómo ejecutar el codigo
 
 Entra al repositorio de GitHub, dirigete al botón verde que dice **"<> Code"** y selecciona **"Download ZIP"**, esto descargará los archivos de este repositorio. 
