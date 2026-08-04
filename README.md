@@ -2,6 +2,12 @@
 
 Proyecto en Java para una exposición sobre cómo funciona la memoria RAM y cómo la utilizan los programas.
 
+Incluye, además, un proyecto de Hola Mundo hecho en Java, usando la libreria scanner para la toma de datos del usuario.
+
+![Captura de pantalla del codigo HolaMundoRepitiendo.java funcionando](evidencias\HolaMundoRepetido_funcionando.png)
+
+
+
 ## Integrantes
 
 - Matías Múnera
@@ -42,4 +48,10 @@ Puedes ejecutar los archivos directamente desde tu consola con los comandos "**j
 
 > [!CAUTION]
 > Se requiere tanto las extensiones de Java en VSCode (si se va a ejecutar en VSCode) como Java y el JDK de Java instalado en tu equipo para ejecutar los códigos.
+
+## Enlaces a recursos utilizados
+
+- Uso de scanner en Java en [w3schools.com](https://www.w3schools.com/java/java_user_input.asp).
+- Sintaxis y formato de Markdown, incluyendo los avisos personalizados, en [GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
 
