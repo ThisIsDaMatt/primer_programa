@@ -4,7 +4,7 @@ Proyecto en Java para una exposición sobre cómo funciona la memoria RAM y cóm
 
 Incluye, además, un proyecto de Hola Mundo hecho en Java, usando la libreria scanner para la toma de datos del usuario.
 
-![Captura de pantalla del codigo HolaMundoRepitiendo.java funcionando](evidencias\HolaMundoRepetido_funcionando.png)
+![Captura de pantalla del codigo HolaMundoRepitiendo.java funcionando](evidencias/HolaMundoRepetido_funcionando.png)
 
 
 
