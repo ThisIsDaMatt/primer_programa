@@ -89,6 +89,7 @@ Por seguridad, se revirtieron los cambios usando los comandos rm, con los parame
 ```
 rm -rf Evidencias/
 ```
+Este problema se solucionó iniciando el proceso de nuevo, puesto que al haber hecho el push ya se encontraba en GitHub, pero para asegurar que el flujo era el correcto, se inició el proceso de nuevo, desde la creación de la carpeta.
 
 Tambien, al hacer push, podía salir este error:
 
