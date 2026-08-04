@@ -53,5 +53,6 @@ Puedes ejecutar los archivos directamente desde tu consola con los comandos "**j
 
 - Uso de scanner en Java en [w3schools.com](https://www.w3schools.com/java/java_user_input.asp).
 - Sintaxis y formato de Markdown, incluyendo los avisos personalizados, en [GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Consulta de información para la exposición con la ayuda de [Claude Sonnet 5](https://www.claude.ai).
 
 
