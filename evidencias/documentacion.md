@@ -109,4 +109,18 @@ hint: See the 'Note about fast-forwards' in 'git push--help' for details.
 
 Lo cual se pudo solucionar haciendo un git pull, puesto que este error indicaba que habian archivos que estaban en GitHub que faltaban localmente, permitiendo un push correcto.
 
+Los errores no solo ocurrieron en git, sinó que tambien con el Markdown.
+
+A la hora de añadir imagenes, se usa la sintaxis:
+
+```
+![Texto alternativo](ruta/imagen.png)
+```
+
+Con esto, se muestra la imagen tanto en la preview del Markdown de VSCode sino que tambien en GitHub, pero al principio, la imagen se añadió de esta forma, la cual no permitia que se mostrara en GitHub:
+
+```
+![Texto alternativo](ruta\imagen.png)
+```
+La unica diferencia, sutil pero importante, es que la barra es diferente, y como GitHub renderiza el Markdown como si fuera en Linux, la barra común ( / ) es la que se tenía que usar, contrario a la contrabarra ( \ ) que se usa en Windows.
 
