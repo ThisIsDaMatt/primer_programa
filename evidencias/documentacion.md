@@ -2,6 +2,25 @@
 > [!NOTE]
 > Una parte del flujo de trabajo se hizo a través de git y GitHub, pero a través de Visual Studio Code, el cual no necesita comandos y es meramente gráfico. Por razones de tiempo, el trabajo se dejó como está, y las partes faltantes si se realizaron con git por consola. En esta documentación se explican los dos métodos.
 
+## Instalación del JDK de Java y el entorno de desarrollo
+Para el **correcto funcionamiento de Java**, se necesita tanto un **JDK** (Java Development Kit), como las **extensiones** necesarias en Visual Studio Code.
+
+Primero, los pasos para la **descarga del JDK** de Java son:
+
+- **Dirigirse** a [https://www.oracle.com/latam/java/technologies/downloads/](https://www.oracle.com/latam/java/technologies/downloads/)
+- Seleccionar **x64 Installer** o MSI Installer
+- **Descargar** el archivo del instalador
+- Seguir las **instrucciones del instalador**, usar las opciones recomendadas
+- **Reiniciar el equipo** para asegurar que se llevan a cabo los cambios
+
+Para **poder usar Java** correctamente en **Visual Studio Code**, los pasos son:
+
+- Dirigirse a **Extensiones**
+- Buscar "**Extension pack for Java**", el cual **incluye todas las extensiones** necesarias tanto para debug, sintaxis, autocompletado y más.
+- VSCode debería **reconocer el JDK** y el entorno, en caso que **no lo haga**, saldrá un aviso. Se debe **seleccionar el directorio** donde está instalado el JDK.
+
+Con estos pasos y estas instalaciones, se podrán **crear y ejecutar archivos de Java** tanto en VSCode como en la consola de Windows.
+
 ## Creación del repositorio
 Se crea el repositorio directamente en **GitHub**, con configuración pública y con readme incluido, el cual se empieza a trabajar en el momento de la creación.
 
