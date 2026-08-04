@@ -23,7 +23,6 @@ Memoria RAM y cómo la usan los programas.
 - **HolaMundo.java**: versión basica del código.
 - **HolaMundoRepitiendo.java**: versión con switch para mostrar un menú que se repite.
 - **prueba.java**: práctica de cómo usar scanner.
-- **documentacion.md**: información sobre como se trabajó con el flujo git-github.
 - **Memoria RAM.pptx**: presentación sobre el tema a exponer
 
 > [!NOTE]
@@ -33,10 +32,10 @@ Memoria RAM y cómo la usan los programas.
 
 La carpeta "**evidencias**" incluye:
 
-- **Capturas de pantalla** con **cmdchallenge.com** completado hasta el nivel básico, como se indicó.
+- **Capturas de pantalla** con cmdchallenge.com completado hasta el nivel básico, como se indicó.
 - **Screenshots de los tres programas** (incluyendo la práctica autónoma de scanner) funcionando correctamente.
-- **Presentación** en .pptx sobre la Memoria RAM
-- **Documentación** del proceso de colaboración incluyendo screenshots del uso de git en consola.
+- **MemoriaRAM.pptx**, presentación de PowerPoint sobre la Memoria RAM
+- **documentacion.md**: Documentación sobre la instalación del JDK de Java y las extensiones en VSCode, información de como se trabajó con el flujo git-github, proceso de colaboración incluyendo comandos del uso de git en consola. Tambien incluye errores que tuvimos en el desarrollo de la actividad.
 
 ## Cómo ejecutar el codigo
 
